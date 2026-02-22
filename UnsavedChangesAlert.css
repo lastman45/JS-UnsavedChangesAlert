@@ -1,0 +1,30 @@
+body {
+	background-color: aquamarine;
+}
+
+#myForm {
+	font-family: "Poppins", sans-serif;
+	width: min(90%, 400px);
+	background-color: white;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	padding: 3em;
+}
+
+input,
+label {
+	display: block;
+}
+
+input {
+	border: 1px solid #000000;
+	padding: 0.5em;
+	width: 100%;
+}
+
+button {
+	font-size: 1.1em;
+	margin-top: 1em;
+}
